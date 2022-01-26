@@ -1,5 +1,5 @@
 
-console.log('client side app is running!');
+
 
 
 const weatherForm=document.querySelector('form')
