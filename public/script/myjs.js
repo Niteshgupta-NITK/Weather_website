@@ -14,7 +14,7 @@ weatherForm.addEventListener('submit',(e)=>{
     e.preventDefault();
   console.log(city.value);
   
-const url='http://localhost:3000/weather?city='+city.value;
+const url='/weather?city='+city.value;
 console.log(url);
 fetch(url).then((res)=>{
   res.json().then((data)=>{
